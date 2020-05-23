@@ -1,4 +1,4 @@
 build:
-	gcc -std=c11 -o vm vm.c
+	gcc -g -c vm vm.c
 run:
-	./vm
+	./vm ~/Downloads/2048.obj
